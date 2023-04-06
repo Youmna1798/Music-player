@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playlist</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <hr>
+    <div class="container">
+        <!-- audio player -->
+        <div id="audio">
+            <audio id="myAudio" controls src="" type="audio/mpeg"  controlsList="nodownload" ></audio>
+        </div>
+        <!-- audio buttons -->
+        <div class="buttons">
+            <button class="item" onclick="pauseAudio()" type="button">Pause Audio</button>
+            <button class ="item2" onclick="RandomPlay()" type="button">Play Randomly</button>
+            <button class="item3" onclick="Playback()" type="button">Play Sequentialy</button>
+            <br>
+            <input type="file" class="custom-file-input">
+        </div>
+        <!-- play list -->
+        <ul id="MyList"></ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
