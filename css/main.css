@@ -172,13 +172,13 @@ width: 90wh;
     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
 }
 
-@media  (min-width: 240px ) and (max-width:800px) {
+@media  (min-width: 240px ) and (max-width:960px) {
     .custom-file-input::before {
         content: 'Add Song';
         color:  #34495e;
         position: absolute;
         padding: .8%;
-        margin: 20px 0 0 100px;
+        margin: 20px 0 0 95px;
         border: 2px solid #34495e;
         background-color: #95a5a6;
         cursor: pointer;
