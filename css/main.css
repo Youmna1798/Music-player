@@ -89,6 +89,7 @@ font-family: "raleway";}
     top: 20%;
     left: 62%;
 }
+
 .buttons button:hover{
     background-color: #ecf0f1;
 }
@@ -137,8 +138,8 @@ width: 90wh;
     color: transparent;
     position: absolute;
     transform: translate(-50% , -50%);
-    top: 79%;
-    left: 100%;
+    top: 82%;
+    left: 98%;
     height: 10vh;
 }
 
@@ -177,7 +178,7 @@ width: 90wh;
         color:  #34495e;
         position: absolute;
         padding: .8%;
-        margin: 15px 0 0 100px;
+        margin: 14px 0 0 100px;
         border: 2px solid #34495e;
         background-color: #95a5a6;
         cursor: pointer;

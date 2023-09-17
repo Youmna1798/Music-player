@@ -69,6 +69,7 @@ function pauseAudio() {
 
 var inputAudio = document.querySelector(".custom-file-input")
 // Adding songs function
+
 inputAudio.addEventListener("change",()=>{
     fileName = inputAudio.files[0].name
     let name = fileName.split(".")
